@@ -23,8 +23,8 @@ setInterval(createSnowflakes, 1000);
 createSnowflakes();
 
 const playlist = [
-    'sounds/мне надоело.mp3',
-    'sounds/song2.mp3',
+    'sounds/Мне надоело.mp3',
+    'sounds/Снег.mp3',
     'sounds/song3.mp3',
     'sounds/song4.mp3',
     'sounds/song4.mp3',
