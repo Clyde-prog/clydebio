@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clyde bio</title>
+    <link rel="icon" href="img/logo.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="icons left">
+            <div class="icon-wrapper">
+                <a href="#"><img src="img/Discord.svg" alt="icon 1" width="50" height="30"></a>
+                <span class="icon-text">Discord</span>
+            </div>
+            <div class="icon-wrapper">
+                <a href="#"><img src="img/steam.svg" alt="icon 2" width="50" height="35"></a>
+                <span class="icon-text">Steam</span>
+            </div>
+        </div>
+        <div class="icons right">
+            <div class="icon-wrapper">
+                <a href="#"><img src="img/YouTube.svg" alt="icon 3" width="50" height="30"></a>
+                <span class="icon-text">YouTube</span>
+            </div>
+            <div class="icon-wrapper">
+                <a href="https://funpay.com/users/12931347/"><img src="img/funpay.svg" alt="icon 4" width="50" height="13"></a>
+                <span class="icon-text">FunPay</span>
+            </div>
+        </div>        
+        <header>
+            <h2>Clyde</h2>
+        </header>
+        <section>
+            <p>Привет! Меня зовут [Твое Имя], и это моя личная страница.</p>
+        </section>
+        <section>
+            <h2>Образование</h2>
+            <p>Я обучался в [Название учебного заведения] и получил степень в [Специальность].</p>
+        </section>
+        <section>
+            <h2>Опыт работы</h2>
+            <p>Работал в [Название компании] на должности [Должность].</p>
+        </section>
+        <section>
+            <h2>Контакты</h2>
+            <p>Email: example@email.com</p>
+        </section>
+    </div>
+
+    <!-- Музыкальный проигрыватель -->
+    <div class="audio-player">
+        <div class="song-info" id="song-title">Название песни</div>
+        <div class="controls">
+            <button id="prev-btn">❮</button>
+            <button id="play-pause-btn">▶</button>
+            <button id="next-btn">❯</button>
+        </div>
+        <input type="range" id="audio-progress" value="100" max="100" step="1" onchange="setVolume(this.value)">
+    </div>
+
+    <footer>
+        <p>By Clyde</p>
+        <p>© 2025 Все права защищены</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
