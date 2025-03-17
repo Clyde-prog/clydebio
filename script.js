@@ -23,18 +23,18 @@ setInterval(createSnowflakes, 1000);
 createSnowflakes();
 
 const playlist = [
-    'sounds/song1.mp3',
+    'sounds/мне надоело.mp3',
     'sounds/song2.mp3',
     'sounds/song3.mp3',
-    'sounds/song1.mp3',
-    'sounds/song2.mp3',
-    'sounds/song3.mp3',
-    'sounds/song1.mp3',
-    'sounds/song2.mp3',
-    'sounds/song3.mp3',
-    'sounds/song1.mp3',
-    'sounds/song2.mp3',
-    'sounds/song3.mp3',
+    'sounds/song4.mp3',
+    'sounds/song4.mp3',
+    'sounds/song5.mp3',
+    'sounds/song6.mp3',
+    'sounds/song7.mp3',
+    'sounds/song8.mp3',
+    'sounds/song9.mp3',
+    'sounds/song10.mp3',
+    'sounds/song11.mp3',
     // Добавьте сюда все песни из папки sounds
 ];
 let currentTrack = 0;
